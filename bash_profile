@@ -46,7 +46,7 @@ python sqlmap.py -u $1
 
 knock(){
 cd /home/tools/knock/knockpy
-python knockpy.py -w list.txt $1
+python knockpy.py -w subdomains-top1mil-110000.txt $1
 }
 
 ncx(){
